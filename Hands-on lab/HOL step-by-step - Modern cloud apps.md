@@ -536,6 +536,7 @@ In this exercise, the attendee will provision a secondary SQL Database and confi
     - **Server name**: Enter a globally unique value, such as `contosodbreplicaSUFFIX`, where `SUFFIX` is a unique identifier (ensure the green checkmark appears).
     - **Location**: Select a region for your secondary region, for additional guidance, see the **Important** note below.
     - Check **Allow Azure services to access server**.
+    - Check **Authentication method**: Use SQL authentication.
     - **Server admin login**: Enter `demouser`.
     - **Password**: Enter `Password.1!!`.
     - **Confirm password**: Enter `Password.1!!`.
